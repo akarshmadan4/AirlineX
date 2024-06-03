@@ -1,0 +1,49 @@
+/* admin.css */
+
+.admin-dashboard {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-dashboard .admin-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.admin-dashboard .admin-actions button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.admin-dashboard .admin-actions button:hover {
+    background-color: #45a049;
+}
+
+.admin-dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-dashboard th, .admin-dashboard td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.admin-dashboard th {
+    background-color: #f9f9f9;
+}

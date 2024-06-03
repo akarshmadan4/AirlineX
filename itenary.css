@@ -1,0 +1,34 @@
+/* itinerary.css */
+
+.itinerary {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.itinerary h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.itinerary-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.itinerary-table th, .itinerary-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.itinerary-table th {
+    background-color: #f9f9f9;
+}
+
+.itinerary-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
